@@ -1,0 +1,23 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+// nav li {
+//     font-size: 2em;
+// }
+
+
+
+.navbar {
+     background-color: #7A9CFF;
+     border-bottom: none;
+}
+
+ul.nav.nav.navbar-nav > li > a {
+    color: #4A4A6E;
+    font-size: 2em;
+    &:hover{
+        color: white;
+    }
+}
+
